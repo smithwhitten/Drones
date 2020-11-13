@@ -48,7 +48,8 @@ recvThread.start()
 
 # Drones mission through the first Hulu Hoop
 def firsthoop():
-
+    sendmsd('125')
+    sendmsg('forward 300')
 
 
 
